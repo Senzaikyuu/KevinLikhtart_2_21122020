@@ -154,20 +154,55 @@ input[type="search"]
     line-height: 25px;
 }
 
+h2
+{
+    font-size: 17px;
+    padding-left: 20px;
+}
+
 .TitreImage
 {
     font-weight: bold;
+    font-size: 14px;
+    margin-left: 5px
 }
 
+.TexteImage
+{
+    font-size: 12px;
+    margin-left: 5px;
+}
+
+.img1
+{
+    border-radius: 20px 20px 0px 0px;
+}
+#bloc1
+{
+    background-color: #F2F2F2;
+    margin-bottom: 30px;
+    border-radius: 20px;
+    padding: 20px;
+    width: 700px;
+    
+}
 .BlocType
 {
     line-height: 5px;
+    border: 3px white solid;
+    width: 188px;
+    border-radius: 20px;
+    background-color: white;
+    margin: 20px;
 }
 
 #Stars
 {
     display: flex;
     flex-direction: row;
+    font-size: 12px;
+    margin-top: -14px;
+    margin-left: 5px;
 }
 
 .FullStars
@@ -180,6 +215,18 @@ input[type="search"]
     color: #F2F2F2;
 }
 
+.AlignImages
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.BottomBlock1
+{
+    font-size: 14px;
+    padding-left: 20px;
+    font-weight: bold;
+}
 #footbox {
     display: flex;
     flex-flow: row;
