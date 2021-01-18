@@ -114,6 +114,32 @@ input[type="search"]
     line-height: 25px;
 }
 
+.TitreImage
+{
+    font-weight: bold;
+}
+
+.BlocType
+{
+    line-height: 5px;
+}
+
+#Stars
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.FullStars
+{
+    color: #0065FC;
+}
+
+.EmptyStars
+{
+    color: #F2F2F2;
+}
+
 #footbox {
     display: flex;
     flex-flow: row;
