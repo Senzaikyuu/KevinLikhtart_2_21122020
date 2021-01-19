@@ -103,6 +103,7 @@ input[type="search"]
     flex-direction: row;
     justify-content: space-between;
     width: 75%;
+    height: 54px;
 }
 
 .Gras
@@ -127,12 +128,14 @@ input[type="search"]
     color: #0065FC;
     border: 2px #F2F2F2 solid;
     border-radius: 100px;
-    width: 50px;
-    height: 50px;
+    width: 48px;
+    height: 48px;
     text-align: center;
-    line-height: 50px;
+    line-height: 48px;
     background-color: #F2F2F2;
     margin-right: 20px;
+    font-size: 20px;
+    padding-right: 1px;
 }
 #Infos
 {
@@ -303,6 +306,58 @@ h2
     margin-left: 15px;    
 }
 
+h3
+{
+    font-size: 17px;
+}
+
+.CadreType1
+{
+    line-height: 5px;
+    border: 3px white solid;
+    width: 250px;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: 6px 6px 30px grey;
+    margin-bottom: 40px;
+    height: 340px;
+}
+
+.CadreType2
+{
+    line-height: 5px;
+    border: 3px white solid;
+    width: 250px;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: 6px 6px 30px grey;
+    margin-bottom: 40px;
+    height: 148px;
+}
+
+#Partie2
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.img3
+{
+    border-radius: 20px 20px 0px 0px;
+    height: 105px;
+    width: 250px;
+}
+
+.TitreImage3
+{
+    font-weight: bold;
+    font-size: 14px;
+    margin-left: 15px;
+    margin-top: 20px;
+
+}
+
 #footbox {
     display: flex;
     flex-flow: row;
@@ -315,7 +370,7 @@ footer
     background-color: #F2F2F2;
 }
 
-h3
+h4
 {
     font-size: 14px;
 }
