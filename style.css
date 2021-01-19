@@ -1,6 +1,8 @@
 body
 {
     font-family: 'Raleway', sans-serif;
+    min-width: 1265px;
+    max-width: 1265px;
 }
 
 a:link 
