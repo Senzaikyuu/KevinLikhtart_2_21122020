@@ -314,3 +314,26 @@ footer
 {
     background-color: #F2F2F2;
 }
+
+h3
+{
+    font-size: 14px;
+}
+
+.p1
+{
+    font-size: 14px;
+    line-height: 30px;
+}
+
+.p2
+{
+    font-size: 14px;
+    line-height: 30px;
+}
+
+.p3
+{
+    font-size: 14px;
+    line-height: 30px;
+}
