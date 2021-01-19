@@ -154,6 +154,14 @@ input[type="search"]
     line-height: 25px;
 }
 
+#Partie1
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 620px;
+}
+
 h2
 {
     font-size: 17px;
@@ -177,7 +185,7 @@ h2
 {
     border-radius: 20px 20px 0px 0px;
 }
-#bloc1
+#Bloc1
 {
     background-color: #F2F2F2;
     margin-bottom: 30px;
@@ -194,6 +202,7 @@ h2
     border-radius: 20px;
     background-color: white;
     margin: 20px;
+    box-shadow: 6px 6px 30px grey;
 }
 
 #Stars
@@ -227,6 +236,73 @@ h2
     padding-left: 20px;
     font-weight: bold;
 }
+.TitleAlign
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 360px;
+
+}
+
+#Bloc2
+{
+    background-color: #F2F2F2;
+    width: 380px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+    padding: 20px;
+}
+
+.BlocType2
+{
+    background-color: white;
+    border: 3px white solid;
+    display: flex;
+    flex-direction: row;
+    width: 320px;
+    border-radius: 20px 20px 20px 20px;
+    margin: 25px;
+    height: 110px;
+    margin-bottom: 40px;
+    box-shadow: 6px 6px 30px grey;
+}
+
+.img2
+{
+    border-radius: 20px 0px 0px 20px;
+    width: 120px;
+}
+
+.txtalign2
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.TitreImage2
+{
+    font-weight: bold;
+    font-size: 14px;
+    margin-left: 15px;
+}
+
+.TexteImage2
+{
+    font-size: 12px;
+    margin-left: 15px;
+    margin-top: -8px;
+}
+
+#Stars2
+{
+    display: flex;
+    flex-direction: row;
+    font-size: 12px;
+    margin-left: 15px;    
+}
+
 #footbox {
     display: flex;
     flex-flow: row;
