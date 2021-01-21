@@ -1,8 +1,6 @@
 body
 {
     font-family: 'Raleway', sans-serif;
-    min-width: 1265px;
-    max-width: 1265px;
 }
 
 a:link 
@@ -103,14 +101,14 @@ input[type="search"]
 {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    width: 75%;
+    
     height: 54px;
 }
 
 .Gras
 {
     font-weight: bold;
+    margin-right: 20px;
 }
 
 .FiltrePosition
@@ -121,8 +119,8 @@ input[type="search"]
     border: 2px #F2F2F2 solid;
     border-radius: 70px;
     background-color: white;   
-    justify-content: space-between;
     padding-right: 20px;
+    margin-right: 20px;
 }
 
 .FiltreLogo
@@ -189,21 +187,21 @@ h2
 .img1
 {
     border-radius: 20px 20px 0px 0px;
+    width: 100%;
 }
 #Bloc1
 {
     background-color: #F2F2F2;
-    margin-bottom: 30px;
     border-radius: 20px;
     padding: 20px;
-    width: 700px;
+    width: 60%
     
 }
 .BlocType
 {
     line-height: 5px;
     border: 3px white solid;
-    width: 188px;
+    width: 28%;
     border-radius: 20px;
     background-color: white;
     margin: 20px;
@@ -246,16 +244,14 @@ h2
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 360px;
 
 }
 
 #Bloc2
 {
     background-color: #F2F2F2;
-    width: 380px;
+    width: 30%;
     border-radius: 20px;
-    margin-bottom: 30px;
     padding: 20px;
 }
 
@@ -265,18 +261,24 @@ h2
     border: 3px white solid;
     display: flex;
     flex-direction: row;
-    width: 320px;
     border-radius: 20px 20px 20px 20px;
     margin: 25px;
     height: 110px;
     margin-bottom: 40px;
     box-shadow: 6px 6px 30px grey;
+    width: 80%;
 }
 
+.AlignImage2
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .img2
 {
     border-radius: 20px 0px 0px 20px;
-    width: 120px;
+    width: 35%
 }
 
 .txtalign2
@@ -311,30 +313,36 @@ h2
 h3
 {
     font-size: 17px;
+    margin-top: 40px;
 }
 
 .CadreType1
 {
     line-height: 5px;
     border: 3px white solid;
-    width: 250px;
+    width: 20%;
     border-radius: 20px;
     background-color: white;
     box-shadow: 6px 6px 30px grey;
     margin-bottom: 40px;
-    height: 340px;
+    
 }
 
 .CadreType2
 {
     line-height: 5px;
     border: 3px white solid;
-    width: 250px;
+    width: 100%;
     border-radius: 20px;
     background-color: white;
     box-shadow: 6px 6px 30px grey;
     margin-bottom: 40px;
-    height: 148px;
+    
+}
+
+.Colonne
+{
+    width: 20%;
 }
 
 #Partie2
@@ -342,13 +350,14 @@ h3
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    width: 100%;
 }
 
 .img3
 {
     border-radius: 20px 20px 0px 0px;
-    height: 105px;
-    width: 250px;
+    height: 102px;
+    width: 100%;
 }
 
 .TitreImage3
