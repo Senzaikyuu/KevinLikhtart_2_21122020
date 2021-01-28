@@ -12,7 +12,7 @@ a:hover
 {
     color: #0065FC;
     border-top: 5px #0065FC solid;
-    padding-top: 40px;
+    padding-top: 25px;
 }
 
 a
@@ -26,6 +26,7 @@ a
     padding-left: 30px;
 }
 
+
 #Intro {
     display: flex;
     flex-direction: row;
@@ -35,11 +36,13 @@ a
 .Navigation
 {
     display: flex;
-    line-height: 60px;
-    width: 30%;
-    justify-content: space-between;
+    line-height: 31px; 
     flex-direction: row;
     list-style: none;
+    margin-left: 50%;
+    width: 20%;
+    justify-content: space-between;
+    
 }
 
 .Inscription
@@ -402,4 +405,253 @@ h4
 {
     font-size: 14px;
     line-height: 30px;
+}
+
+@media all and (max-width: 1080px)
+{
+    #Intro
+    {
+        display: flex;
+        flex-direction: row; 
+    }
+
+    .Menu
+    {
+        font-size: 50px;
+    }
+
+    h1
+    {
+        font-size: 50px;
+        margin-top: 80px;
+    }
+
+    p
+    {
+        font-size: 25px;
+    }
+
+    .Navigation
+    {
+        margin-top: 150px;
+        margin-left: -82%;
+    }
+
+    a
+    {
+        margin-right: 100px;
+        margin-left: 87px;
+    }
+
+    a:hover
+    {
+        color: #0065FC;
+        border-bottom: 5px #0065FC solid;
+        border-top: none;
+    }
+
+    #Barre
+    {
+        margin-top: 50px;
+        display: flex;
+        align-items: center;
+    }
+
+    #Filtres
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: start, center;  
+    }
+
+    .FiltrePosition
+    {
+        font-size: 40px;
+        width: 70%;
+        height: 120px;
+        margin-bottom: 40px;
+        border-radius: 100px;
+        border: 5px #F2F2F2 solid;
+    }
+
+    .FiltreLogo
+    {
+        width: 120px;
+        height: 120px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 50px;
+        margin-right: 60px;
+    }
+
+    #Infos
+    {
+        margin-top: 85%;
+        width: 100%;
+        font-size: 30px;
+        display: flex;
+        justify-content: left;
+    }
+
+    .logoi
+    {
+        font-size: 40px;
+        border: 2px #F2F2F2 solid;
+        border-radius: 100px;
+        width: 70px;
+        height: 70px;
+        background-color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-right: 20px;
+    }
+
+    .Gras
+    {
+        font-size: 40px;
+    }
+
+    #Partie1
+    {
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 483%;
+    }
+
+    #Bloc2
+    {
+        width: 95%;
+        margin-bottom: 5%;
+    }
+
+    #Bloc1
+    {
+        width: 95%;
+       
+    }
+
+    .AlignImages
+    {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .BlocType
+    {
+       width: 90%;
+       height: 500px;
+       border: 10px white solid;
+       margin-left: 30px;
+    }
+
+    .img1
+    {
+        height: 300px;
+    }
+
+    .TitreImage
+    {
+        font-size: 40px;
+    }
+
+    .TexteImage
+    {
+        font-size: 30px;
+    }
+
+    #Stars
+    {
+        font-size: 30px;
+    }
+
+    .BottomBlock1
+    {
+        font-size: 30px;
+    }
+
+    #Partie2
+    {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .TitleAlign
+    {
+        font-size: 50px;
+    }
+
+    h2
+    {
+        font-size: 50px;
+    }
+
+    .TitreImage2
+    {
+        font-size: 40px;
+    }
+
+    .TexteImage2
+    {
+        font-size: 30px;
+    }
+
+    #Stars2
+    {
+        font-size: 30px;
+    }
+
+    .BlocType2
+    {
+        width: 90%;
+        height: auto;
+        border: 10px white solid;
+    }
+
+    .CadreType1
+    {
+        width: 100%;
+    }
+
+    .Colonne
+    {
+        width: 100%;
+    }
+
+    .CadreType2
+    {
+        width: 100%;
+    }
+
+    #footbox
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-left: 50px;
+    }
+
+    h4
+    {
+        font-size: 30px;
+    }
+
+    .p1
+    {
+        font-size: 29px;
+        line-height: 100px;
+    }
+
+    .p2
+    {
+        font-size: 29px;
+        line-height: 100px;
+    }
+
+    .p3
+    {
+        font-size: 29px;
+        line-height: 100px;
+    }
 }
