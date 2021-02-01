@@ -480,9 +480,19 @@ h4
         margin-top: 110px;
         display: flex;
         align-items: center;
-        transform:scale(2.4);
-        margin-left: 15%;
+        transform:scale(2.5);
+        margin-left: 18%;
         margin-bottom: 30px;
+    }
+
+    .logo1
+    {
+        font-size: 20px;
+    }
+
+    .recherche
+    {
+        font-size: 20px;
     }
 
     #Filtres
