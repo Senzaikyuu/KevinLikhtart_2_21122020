@@ -524,6 +524,7 @@ h4
         margin-bottom: 40px;
         border-radius: 100px;
         border: 5px #F2F2F2 solid;
+        width: 70%;
     }
 
     .FiltreLogo
@@ -563,7 +564,7 @@ h4
     .Gras
     {
         font-size: 40px;
-        margin-bottom: 70px;
+        margin-bottom: 50px;
     }
 
     #Partie1
