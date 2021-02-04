@@ -1,6 +1,8 @@
 body
 {
     font-family: 'Raleway', sans-serif;
+    display: flex;
+    justify-content: center;
 }
 
 a:link 
@@ -102,6 +104,12 @@ h1
     border-radius: 0px 20px 20px 0px;
     padding-left: 10px;
     padding-right: 10px;
+}
+
+.fa-search
+{
+    display: none;
+    color: white;
 }
 
 input[type="search"]
@@ -495,6 +503,16 @@ h4
         font-size: 20px;
     }
 
+    .recherche-mot
+    {
+        display: none;
+    }
+
+    .fa-search
+    {
+        display: flex;
+    }
+    
     #Filtres
     {
         display: flex;
