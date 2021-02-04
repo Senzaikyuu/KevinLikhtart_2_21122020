@@ -520,7 +520,6 @@ h4
     .FiltrePosition
     {
         font-size: 40px;
-        width: 70%;
         height: 120px;
         margin-bottom: 40px;
         border-radius: 100px;
@@ -564,6 +563,7 @@ h4
     .Gras
     {
         font-size: 40px;
+        margin-bottom: 70px;
     }
 
     #Partie1
