@@ -1,6 +1,8 @@
 body
 {
     font-family: 'Raleway', sans-serif;
+    display: flex;
+    justify-content: center;
 }
 
 a:link 
@@ -454,8 +456,20 @@ h4
     {
         font-size: 50px;
         margin-top: 80px;
+        text-align: center;
     }
 
+    .soustitre
+    {
+        text-align: center;
+        margin-top: 70px;
+    }
+
+    .textei
+    {
+        font-size: 30px;
+    }
+    
     p
     {
         font-size: 25px;
@@ -482,7 +496,7 @@ h4
 
     #Barre
     {
-        margin-top: 120px;
+        margin-top: 150px;
         display: flex;
         align-items: center;
         transform:scale(2.5);
@@ -759,3 +773,4 @@ h4
         font-size: 30px;
         line-height: 100px;
     }
+}
