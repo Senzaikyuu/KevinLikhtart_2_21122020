@@ -500,18 +500,22 @@ h4
         display: flex;
         align-items: center;
         transform:scale(2.5);
-        margin-left: 280px;
+        margin-left: 210px;
         margin-bottom: 30px;
     }
 
     .logo1
     {
         font-size: 20px;
+        padding-left: 30px;
+        padding-right: 30px;
     }
 
     .recherche
     {
         font-size: 20px;
+        padding-right: 30px;
+        padding-left: 30px;
     }
 
     .recherche-mot
