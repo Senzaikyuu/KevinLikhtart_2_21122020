@@ -176,7 +176,6 @@ input[type="search"]
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    height: 620px;
 }
 
 h2
@@ -577,6 +576,7 @@ h4
         font-size: 30px;
         display: flex;
         justify-content: left;
+        margin-bottom: 60px;
     }
 
     .logoi
@@ -603,8 +603,6 @@ h4
     {
         display: flex;
         flex-direction: column-reverse;
-        margin-top: 360%;
-       
     }
 
     #Bloc2
