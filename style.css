@@ -121,7 +121,6 @@ input[type="search"]
 {
     display: flex;
     flex-direction: row;
-    height: 54px;
 }
 
 .Gras
