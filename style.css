@@ -428,6 +428,12 @@ h4
 
 @media all and (max-width: 1080px)
 {
+    body
+    {
+        
+        margin-right: -800px;
+    }
+
     #Intro
     {
         display: flex;
@@ -463,6 +469,7 @@ h4
     {
         text-align: center;
         margin-top: 70px;
+        font-size: 40px;
     }
 
     .textei
@@ -478,7 +485,7 @@ h4
     .Navigation
     {
         margin-top: 350px;
-        margin-left: -845px;
+        margin-left: -820px;
     }
 
     a
@@ -500,7 +507,7 @@ h4
         display: flex;
         align-items: center;
         transform:scale(2.5);
-        margin-left: 180px;
+        margin-left: 300px;
         margin-bottom: 30px;
     }
 
@@ -589,7 +596,8 @@ h4
     {
         display: flex;
         flex-direction: column-reverse;
-        margin-top: 440%;
+        margin-top: 360%;
+       
     }
 
     #Bloc2
@@ -644,6 +652,7 @@ h4
     .Stars
     {
         font-size: 30px;
+        margin-left: 20px;
     }
 
     .BottomBlock1
@@ -669,7 +678,7 @@ h4
 
     #Activité
     {
-        font-size: 25px;
+        font-size: 3rem;
         margin-top: 40px;
         margin-left: 15px;
         margin-bottom: 40px;
