@@ -424,7 +424,7 @@ h4
 
 
 
-@media all and (max-width: 1080px)
+@media all and (max-width: 1440px)
 {
     body
     {
@@ -563,7 +563,6 @@ h4
 
     #Infos
     {
-        margin-top: 755px;
         width: 100%;
         font-size: 30px;
         display: flex;
