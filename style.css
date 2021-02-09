@@ -241,7 +241,7 @@ h3
     box-shadow: 6px 6px 30px grey;
 }
 
-#Stars
+.Stars
 {
     display: flex;
     flex-direction: row;
@@ -334,7 +334,7 @@ h3
     margin-top: -8px;
 }
 
-#Stars2
+.Stars2
 {
     display: flex;
     flex-direction: row;
@@ -641,7 +641,7 @@ h4
         font-size: 30px;
     }
 
-    #Stars
+    .Stars
     {
         font-size: 30px;
     }
@@ -685,7 +685,7 @@ h4
         font-size: 30px;
     }
 
-    #Stars2
+    .Stars2
     {
         font-size: 30px;
     }
