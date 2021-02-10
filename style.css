@@ -430,13 +430,14 @@ h4
 {
     body
     {       
-        margin-right: -800px;
+        display: flex;
+        justify-content: flex-start;
     }
 
     .Marge
     {
         margin-right: -30px;
-        margin-left: -30px;
+        margin-left: -10px;
     }
 
     .Titre
@@ -444,7 +445,7 @@ h4
         margin-right: 30px;
         margin-left: 30px;
     }
-    
+
     .LogoTitre
     {
         width: 300px;
@@ -574,7 +575,7 @@ h4
         margin-bottom: 40px;
         border-radius: 100px;
         border: 5px #F2F2F2 solid;
-        width: 70%;
+        width: 72%;
     }
 
     .FiltreLogo
