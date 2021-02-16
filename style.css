@@ -10,7 +10,7 @@ a:link
  text-decoration:none; 
 } 
 
-a:hover
+.Menuhover:hover
 {
     color: #0065FC;
     border-top: 5px #0065FC solid;
@@ -20,6 +20,11 @@ a:hover
 a
 {
     color: black;
+}
+
+.aimg2
+{
+    width: 35%;
 }
 
 #centrage
@@ -142,6 +147,11 @@ input[type="search"]
     background-color: white;   
     padding-right: 20px;
     margin-right: 20px;
+}
+
+.FiltrePosition:hover
+{
+    background-color: #F2F2F2
 }
 
 .FiltreLogo
@@ -315,8 +325,8 @@ h3
 .img2
 {
     border-radius: 20px 0px 0px 20px;
-    width: 35%;
-    height: 110px;
+    width: 100%;
+    height: 100%;
     object-fit: cover;  
 }
 
@@ -502,15 +512,15 @@ h4
         text-align: center;
     }
 
+    .Menuhover:hover
+    {
+        border-top: none;
+    }
+
     .Menu:hover
     {
         border-bottom: 5px #0065FC solid;
         padding-bottom: 30px;
-    }
-
-    a:hover
-    {
-        color: #0065FC;
         border-top: none;
     }
 
